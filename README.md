@@ -1,70 +1,137 @@
-🧠 Breast Cancer Classification & Overfitting Analysis
+# 🧠 Breast Cancer Classification & Overfitting Analysis
 
-This project focuses on building a neural network model to classify breast cancer data and analyze overfitting behavior using deep learning techniques.
+A deep learning project focused on building a neural network model for breast cancer classification and analyzing overfitting behavior.
 
-📌 Project Objective
-Develop a binary classification model
-Analyze overfitting using training and validation metrics
-Apply regularization techniques to improve generalization
-📊 Dataset
-Breast Cancer Dataset (from Scikit-learn)
-30 numerical features
-Target:
-0 → Malignant
-1 → Benign
-⚙️ Technologies Used
-Python
-TensorFlow / Keras
-Scikit-learn
-NumPy
-Matplotlib
-🏗️ Model Architecture
-Fully Connected Neural Network (Dense layers)
-Batch Normalization
-Dropout Layers
-L2 Regularization
-🛠️ Techniques Applied
-Train / Validation Split
-Feature Scaling (StandardScaler)
-EarlyStopping
-Overfitting Analysis using training curves
-📈 Results
-Compared training and validation performance
-Observed overfitting behavior
-Improved model generalization using:
-Dropout
-L2 Regularization
-Early Stopping
-📷 Visualization
+---
 
-The model performance is evaluated using:
+## 📌 Project Objective
 
-Training vs Validation Loss
-Training vs Validation Accuracy
+* Develop a binary classification model using neural networks
+* Analyze overfitting through training and validation metrics
+* Apply regularization techniques to improve model generalization
 
-(Add your training plot image here if available)
+---
 
-🚀 How to Run
-Clone the repository:
+## 📊 Dataset
+
+* **Breast Cancer Dataset** (from Scikit-learn)
+* **Features:** 30 numerical features
+* **Target:**
+
+  * `0` → Malignant
+  * `1` → Benign
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* TensorFlow / Keras
+* Scikit-learn
+* NumPy
+* Matplotlib
+
+---
+
+## 🏗️ Model Architecture
+
+* Fully Connected Neural Network (Dense layers)
+* Batch Normalization
+* Dropout Layers
+* L2 Regularization
+
+---
+
+## 🛠️ Techniques Applied
+
+* Train / Validation Split
+* Feature Scaling (StandardScaler)
+* Early Stopping
+* Overfitting Analysis using training curves
+
+---
+
+## 📈 Results
+
+* Compared training and validation performance
+* Observed overfitting behavior
+* Improved generalization using:
+
+  * Dropout
+  * L2 Regularization
+  * Early Stopping
+
+---
+
+## 📷 Visualization
+
+Model performance is evaluated using:
+
+* Training vs Validation Loss
+* Training vs Validation Accuracy
+
+> 📌 *Add your training plot image inside the `images/` folder and display it here:*
+
+```markdown
+![Training Plot](images/training_plot.png)
+```
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Leman2006/breast-cancer-nn-overfitting.git
 cd breast-cancer-nn-overfitting
-Install dependencies:
+```
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-Run the notebook:
+```
+
+### 3. Run the notebook
+
+```bash
 jupyter notebook
-📎 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```
 breast-cancer-nn-overfitting/
 │
 ├── notebook.ipynb
 ├── README.md
 ├── requirements.txt
 └── images/
-💡 Key Takeaways
-Overfitting is a common issue in neural networks
-Regularization techniques are essential for better generalization
-Validation metrics are critical for evaluating model performance
-📌 Future Improvements
-Add confusion matrix and classification report
-Compare with traditional ML models (Logistic Regression, SVM)
-Hyperparameter tuning
-Cross-validation
+    └── training_plot.png
+```
+
+---
+
+## 💡 Key Takeaways
+
+* Overfitting is a critical challenge in neural networks
+* Regularization techniques significantly improve generalization
+* Validation metrics are essential for reliable model evaluation
+
+---
+
+## 🔮 Future Improvements
+
+* Add confusion matrix and classification report
+* Compare with traditional ML models (Logistic Regression, SVM)
+* Perform hyperparameter tuning
+* Apply cross-validation
+
+---
+
+## ⭐ Author
+
+Created as part of a deep learning practice project.
