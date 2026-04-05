@@ -70,7 +70,6 @@ Model performance is evaluated using:
 * Training vs Validation Loss
 * Training vs Validation Accuracy
 
-> 📌 *Add your training plot image inside the `images/` folder and display it here:*
 
 ```markdown
 ![Training Plot](images/training_plot.png)
